@@ -1,0 +1,40 @@
+.btn {
+    background-color: $mainOrange;
+    color: #fff;
+    text-decoration: none;
+    padding: .75rem 3rem;
+    display: inline-block;
+    font-weight: 500;
+    opacity: .85;
+    transition: transform .2s;
+    font-size: 1rem;
+
+    @mixin atLarge {
+        font-size: 1.2rem;
+    }
+
+    &__nav {
+        color: $mainOrange;
+        background-color: rgba(0,0,0,0);
+        border: 3px solid $mainOrange;
+        border-radius: 25px;
+    }
+
+    &__more {
+        color: $mainOrange;
+        background-color: rgba(0,0,0,0);
+        border: 3px solid $mainOrange;
+        border-radius: 25px;
+    }
+
+    &__search {
+        padding: .75rem 3rem;
+        margin-top: 10px;
+        width: 100%;
+
+        &:hover {
+            background-color: #fff;
+            color: $mainOrange;
+        }
+    }
+}

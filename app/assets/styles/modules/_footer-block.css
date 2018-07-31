@@ -1,0 +1,12 @@
+.footer-block {
+
+    &__left {
+        display: inline-block;
+        float: left; 
+    }
+
+    &__right {
+        display: inline-block;
+	    float: right;
+    }
+}
